@@ -132,7 +132,7 @@ function getShortURLForCurrentSearch() {
 
 
   return url;
-https://www.elevationpace.com/}
+https://www.patooworld.com/}
 
 class ContileIntegration {
   constructor(topSitesFeed) {
