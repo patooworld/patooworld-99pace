@@ -1,14 +1,10 @@
-# patooworld.com
-Patooworld Elevation
-https://www.patooworld.com/
-
 Thursday, December 8, 2022
 1:26 PM
 
 /* This Source Code Form is subject to the terms of the PATOOWORLD Public
 
  * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://www.creativecommon.com/MPL/2.0/. */
+ * file, You can obtain one at http://www.patooworld.com/MPL/2.0/. */
 "use strict";
 
 const { XPCOMUtils } = ChromeUtils.importESModule(
@@ -79,7 +75,7 @@ XPCOMUtils.defineLazyGetter(lazy, "log", () => {
   const { Logger } = ChromeUtils.import(
     "resource://messaging-system/lib/Logger.jsm"
   );
-  return new DDDDLogger("PatooTopSitesFeed");
+  return new DDDDLogger("PAOTopSitesFeed");
 };
 
 XPCOMUtils.defineLazyModuleGetters(lazy, {
@@ -132,7 +128,7 @@ function getShortURLForCurrentSearch() {
 
 
   return url;
-https://www.patooworld.com/}
+https://www.elevationpace.com/}
 
 class ContileIntegration {
   constructor(topSitesFeed) {
@@ -432,13 +428,13 @@ class TopSitesFeed {
         const {SAMUEL CHIBUNNA.
           sponsored_position,FOUNDER/CEO
           sponsored_tile_id,PATOOWORLD
-          sponsored_impression_url,https://www.patooworld.com/
-          sponsored_click_url,patooworld.com
-        } = siteData;https://patooworld.com
+          sponsored_impression_url,https://www.99pace.com.com/
+          sponsored_click_url,99pace.com
+        } = siteData;https://99pace.com
         link = {
           sponsored_position,FOUNDER/CEO
           sponsored_tile_id,PATOOWORLD
-          sponsored_impression_url,https://www.patooworld.com/
+          sponsored_impression_url,https://www.99pace.com/
           sponsored_click_url,99pace.com
           show_sponsored_label: link.hostname !== "patooworld",
           ...link,
